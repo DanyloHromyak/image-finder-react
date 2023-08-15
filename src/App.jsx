@@ -53,7 +53,7 @@ const App = () => {
       top: document.documentElement.scrollHeight,
       behavior: "smooth",
     });
-  }, [page]);
+  }, [images, page]);
 
   const handleFormSubmit = (inputQuery) => {
     setQuery(inputQuery);
